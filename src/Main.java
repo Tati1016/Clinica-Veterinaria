@@ -25,7 +25,13 @@ public class Main {
                 180
         );
 
-        Animal[] animales = {perro, gato, ave};
+        Conejo conejo = new Conejo(
+                "Blanco",
+                1,
+                "Maria"
+        );
+
+        Animal[] animales = {perro, gato, ave, conejo};
 
         for (Animal animal : animales) {
             animal.imprimirFicha();
